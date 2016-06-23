@@ -8,6 +8,7 @@
 struct condThread {
 void* obj;
 Semafor *sem;
+Semafor *janusz;
 };
 
 class CondVar {
